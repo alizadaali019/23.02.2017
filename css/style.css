@@ -1,0 +1,96 @@
+body{
+	background: url(../photo/ela.jpg) no-repeat;
+	background-size: cover;
+	 
+}
+.damla{
+	display: inline-block;
+	
+}
+./*damla #bir i{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation: az 2s infinite;
+}*/
+@keyframes az{
+	from{top:0px;}
+	to{top:530px;}
+}
+.damla>.bir>i{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	animation: az .7s infinite;
+}
+@keyframes az{
+	from{top:0px;}
+	to{top:530px;}
+}
+.damla>.iki>i{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation: az .4s  infinite;
+}
+@keyframes az{
+	from{top:0px;}
+	to{top:530px;}
+}
+.damla>.uc>i{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation: az .5s infinite;
+}
+.damla .bir{
+	float: left;
+}
+.damla .iki{
+	float: left;
+}
+.damla .uc{
+	float: left;
+}
+@keyframes az{
+	from{top:0px;}
+	to{top:530px;}
+}
+.damla>.dord>i{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation: az .7s infinite;
+}
+@keyframes az{
+	from{top:0px;}
+	to{top:530px;}
+}
+.damla>.bes>i{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation: az .6s infinite;
+}
+@keyframes az{
+	from{top:0px;}
+	to{top:530px;}
+}
+.damla>.alti>i{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation: az .3s infinite;
+}
+.damla .dord{
+	float: left;
+}
+.damla .bes{
+	float: left;
+}
+.damla .alti{
+	float: left;
+}
+i{
+	color: aqua;
+}
